@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link href="destinations.css" rel="stylesheet">
+</head>
+<style>
+    
+    .logo {
+    max-width: 100px;
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+}
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(30, 30, 197, 0.684);
+    line-height: 0.8;
+    width: 100%;
+    margin: 0 auto; /* Add this line */
+    max-width: 100vw;
+    background-color: rgba(43, 15, 255, 0.502);
+}
+nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav a {
+        display: inline-block;
+        text-decoration: none;
+        color: #ffffff;
+        padding: 10px;
+        margin: 0 5px;
+        
+    }
+    
+    nav a:hover {
+        color: #010102;
+    }
+    .team-member img {
+    max-width: 100%;
+    border-radius: 30%;
+    
+}
+.team-member {
+    display: inline-block;
+    margin: 20px;
+    max-width: 400px;
+    max-height: 400px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+    :root {
+  --primary-color: #aab1c4;
+  --primary-color-dark: #18191b;
+  --text-dark: #0f172a;
+  --text-light: #64748b;
+  --extra-light: #f1f5f9;
+  --white: #ffffff;
+  --max-width: 1200px;
+}
+    .footer{
+        background-color: rgba(43, 15, 255, 0.502);
+    }
+    .footer_container{
+        display: grid;
+        grid-template-columns: 2fr repeat(2, 1fr);
+        gap: 5re;
+    }
+    .footer_col h3{
+        font-size: 1,5rem;
+        font-weight: 500;
+        color: var(--white);
+        margin-bottom: 1rem;
+    }
+
+    .footer_col h4{
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: var(--white);
+        margin-bottom: 1rem;
+    }
+
+    .footer_col p{
+        color: var(--extra-light);
+        margin-bottom: 1rem;
+        cursor: pointer;
+        transition: 3s;
+    }
+
+    .footer_col p:hover{
+        color: var(--white);
+    }
+    .footer_bar{
+        padding: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        border-top: 1px solid var(--extra-light);
+    }
+
+    .footer_bar p{
+        font-size: 1rem;
+        color: var(--extra-light);
+    }
+
+    .socials{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+}
+.socials span{
+    font-size: 1.2rem;
+    color:var(--extra-light);
+}
+.popular__content {
+    padding: 1rem;
+  }
+  
+  .popular__card__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .popular__card__header h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-dark);
+  }
+  
+  .popular__content p {
+    color: var(--text-light);
+  }
+  .popular__grid {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+  .popular__card {
+    overflow: hidden;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+  }  
+  .section__header{
+    font-size: 40px;
+    color: rgba(43, 15, 255, 0.575);
+  }
+</style>
+<body>
+    <header>
+        <h1>Travel Around the World</h1>
+        <nav>
+            <ul>
+               
+                <li><a href="14.05.html">Home</a></li>
+                
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="About Us1.html">About Us</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="section__container popular__container">
+            <center><h1 class="section__header">Popular Hotels</h1></center>
+            <div class="popular__grid">
+               
+              <div class="popular__card">
+                <img src="https://webdesignmastery.github.io/WDM-Co_07-07-23/assets/hotel-1.jpg" alt="popular hotel" height="300px">
+                <div class="popular__content">
+                  <div class="popular__card__header">
+                    <h4>The Plaza Hotel</h4>
+                    <h4>$499</h4>
+                  </div>
+                  <p>New York City, USA</p>
+                </div>
+                </div>
+                <div class="popular__card">
+                    <img src="https://webdesignmastery.github.io/WDM-Co_07-07-23/assets/hotel-2.jpg" alt="popular hotel" height="300px"/>
+                    <div class="popular__content">
+                      <div class="popular__card__header">
+                        <h4>Ritz Paris</h4>
+                        <h4>$549</h4>
+                      </div>
+                      <p>Paris, France</p>
+                    </div>
+                </div>
+                <div class="popular__card">
+                    <img src="https://webdesignmastery.github.io/WDM-Co_07-07-23/assets/hotel-3.jpg" alt="popular hotel" height="300px"/>
+                    <div class="popular__content">
+                      <div class="popular__card__header">
+                        <h4>The Peninsula</h4>
+                        <h4>$599</h4>
+                      </div>
+                      <p>Hong Kong</p>
+                    </div>
+                    </div>
+                    <div class="popular__card">
+                        <img src="https://webdesignmastery.github.io/WDM-Co_07-07-23/assets/hotel-5.jpg" alt="popular hotel" height="300px"/>
+                        <div class="popular__content">
+                          <div class="popular__card__header">
+                            <h4>The Ritz-Carlton</h4>
+                            <h4>$649</h4>
+                          </div>
+                          <p>Tokyo, Japan</p>  
+                        </div>
+                    </div>
+                    <div class="popular__card">
+                        <img src="https://webdesignmastery.github.io/WDM-Co_07-07-23/assets/hotel-6.jpg" alt="popular hotel" height="300px"/>
+                        <div class="popular__content">
+                          <div class="popular__card__header">
+                            <h4>Marina Bay Sands</h4>
+                            <h4>$549</h4>
+                          </div>
+                          <p>Singapore</p>
+                        </div>
+                        </div>
+                        <div class="popular__card">
+                            <img src="https://webdesignmastery.github.io/WDM-Co_07-07-23/assets/hotel-4.jpg" alt="popular hotel" height="300px"/>
+                            <div class="popular__content">
+                              <div class="popular__card__header">
+                                <h4>Atlantis The Palm</h4>
+                                <h4>$449</h4>
+                              </div>
+                              <p>Dubai, United Arab Emirates</p>  
+                            </div>
+                        </div>
+                        <div class="popular__card">
+                            <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/485487683.jpg?k=a8caaa4fadd56e8885ee935d231b4d396c2dd3a9ce4c47e13e1c07336f39c723&o=&hp=1" alt="popular hotel" height="300px"/>
+                            <div class="popular__content">
+                              <div class="popular__card__header">
+                                <h4> Villa Sol y Mar</h4>
+                                <h4>$1000</h4>
+                              </div>
+                              <p>Golf Badia, Spain</p>
+                            </div>
+                            </div>
+                            <div class="popular__card">
+                                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/ee/24/b3/hotel-residence-la-ciaccia.jpg?w=700&h=-1&s=1" alt="popular hotel" height="300px"/>
+                                <div class="popular__content">
+                                  <div class="popular__card__header">
+                                    <h4>Hotel La Ciaccia</h4>
+                                    <h4>$110</h4>
+                                  </div>
+                                  <p>Valledoria, Italy</p>  
+                                </div>
+                            </div>
+                            <div class="popular__card">
+                                <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/419964742.jpg?k=388d0e29c19622902e8fc06e48ba3d363fb87e2a08e07eb3202b225fc04062ff&o=&hp=1" alt="popular hotel" height="300px"/>
+                                <div class="popular__content">
+                                  <div class="popular__card__header">
+                                    <h4>Cap St Georges Hotel & Resort</h4>
+                                    <h4>$499</h4>
+                                  </div>
+                                  <p>Cyprus</p>
+                                </div>
+                                </div>
+                                <div class="popular__card">
+                                    <img src="https://images.trvl-media.com/lodging/45000000/44470000/44468100/44468096/53ee4457.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill" alt="popular hotel" height="300px"/>
+                                    <div class="popular__content">
+                                      <div class="popular__card__header">
+                                        <h4>SANA Berlin Residence</h4>
+                                        <h4>$250</h4>
+                                      </div>
+                                      <p>Berlin, Germany</p>  
+                                    </div>
+                                </div>
+                                <div class="popular__card">
+                                    <img src="https://www.functionfixers.co.uk/assets/B1C0-Facade-of-The-OWO-.jpg" alt="popular hotel" height="300px" />
+                                    <div class="popular__content">
+                                      <div class="popular__card__header">
+                                        <h4>Raffles London at The OWO </h4>
+                                        <h4>$1250</h4>
+                                      </div>
+                                      <p>London, Britan</p>
+                                    </div>
+                                    </div>
+                                    <div class="popular__card">
+                                        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/251614510.jpg?k=24429186ce8933d7ba417ee5a8005a520acf2b579893bbb27d29e561e0e0bd64&o=&hp=1" alt="popular hotel" height="300px"/>
+                                        <div class="popular__content">
+                                          <div class="popular__card__header">
+                                            <h4>Shilla Stay Samsung COEX Center</h4>
+                                            <h4>$120</h4>
+                                          </div>
+                                          <p>Seoul, Korea</p>  
+                                        </div>
+                                    </div>
+                                    <div class="popular__card">
+                                        <img src="https://www.hilton.com/im/en/LAXCHHF/3056211/-dsc2554-5-6.jpg?impolicy=crop&cw=4495&ch=2516&gravity=NorthWest&xposition=0&yposition=241&rw=768&rh=430" alt="popular hotel" height="300px"/>
+                                        <div class="popular__content">
+                                          <div class="popular__card__header">
+                                            <h4>Hilton Checkers</h4>
+                                            <h4>$220</h4>
+                                          </div>
+                                          <p>Los Angeles, USA</p>
+                                        </div>
+                                        </div>
+                                        <div class="popular__card">
+                                            <img src="https://pix10.agoda.net/hotelImages/4335092/0/a78804c8f0fc46905ea594b8b8c8d2fd.jpg?ca=20&ce=0&s=414x232&ar=16x9" alt="popular hotel" height="300px"/>
+                                            <div class="popular__content">
+                                              <div class="popular__card__header">
+                                                <h4>NH Collection New York Madison Avenue</h4>
+                                                <h4>$350</h4>
+                                              </div>
+                                              <p>New York City, USA</p>  
+                                            </div>
+                                        </div>
+                                        <div class="popular__card">
+                                            <img src="https://robbreport.com/wp-content/uploads/2021/12/BH-Paris-Penthouse-Master-Bedroom-Day.jpg?w=1000" alt="popular hotel" height="300px"/>
+                                            <div class="popular__content">
+                                              <div class="popular__card__header">
+                                                <h4>Bulgari Hotel</h4>
+                                                <h4>$2500</h4>
+                                              </div>
+                                              <p>Paris, France</p>
+                                            </div>
+                                            </div>
+                                            <div class="popular__card">
+                                                <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/461659423.jpg?k=c23fb47f342c8893393455320a90fcb2e12d93c386559ce6b08d879e01ed70ab&o=&hp=1" alt="popular hotel" height="300px"/>
+                                                <div class="popular__content">
+                                                  <div class="popular__card__header">
+                                                    <h4>Renaissance Warsaw Airport Hotel</h4>
+                                                    <h4>$150</h4>
+                                                  </div>
+                                                  <p>Warsaw, Poland</p>  
+                                                </div>
+                                            </div>
+                                            <div class="popular__card">
+                                                <img src="https://joinup.md/media/2021/02/Address-Beach-Resort_4.jpg" alt="popular hotel" height="300px"/>
+                                                <div class="popular__content">
+                                                  <div class="popular__card__header">
+                                                    <h4>Address Beach Resort
+                                                    </h4>
+                                                    <h4>$400</h4>
+                                                  </div>
+                                                  <p>Dubai</p>
+                                                </div>
+                                                </div>
+                                                <div class="popular__card">
+                                                    <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/400870129.jpg?k=7138a4291fccae92a721027e6f4941fbde07e62612626ad947153918c0b8104f&o=&hp=1" alt="popular hotel" height="300px"/>
+                                                    <div class="popular__content">
+                                                      <div class="popular__card__header">
+                                                        <h4>Lancemore Milawa</h4>
+                                                        <h4>$550</h4>
+                                                      </div>
+                                                      <p>Australia</p>  
+                                                    </div>
+                                                </div>
+                  </main>
+                  <p> 
+                    
+    <footer class="footer">
+        <div class="section_container footer_container">
+        <div class="footer_col">
+        <h3>Flivan</h3>
+        <p>
+            Where Excellence Takes Flight.
+             With a strong commitment to customer satisfaction and a passion for air travel,
+             Flivan Airlines offers exceptional service and seamless journeys.
+        </p>
+        <p>
+            From friendly smiles to state-of-the-art aircraft, 
+            we connect the world, ensuring safe, comfortable,
+             and unforgettable experiences
+        </p></div>
+        <div class="footer_col">
+            <h4>INFORMATION</h4>
+            <p>Home</p>
+            <p>About</p>
+            <p>Offers</p>
+            <p>Seats</p>
+            <p>Destinations</p>
+            </div>
+            <div class="footer_col">
+            <h4>CONTACTS</h4>
+            <p>Support</p>
+            <p>Media</p>
+            <p>Soccials</p>
+            
+            </div></div>
+            <div class="section_container footer_bar">
+                <p>Copyright © 2023 Web Design Mastery. All rights reserved.</p>
+                <div class="socials"></div>
+                <span><i class="ri-facebook-fill"></i></span>
+                <span><i class="ri-instagram-line"></i></span>
+                <span><i class="ri-telegram-line"></i></span>
+                <span><i class="ri-twitter-line"></i></span>
+        </footer>
+</body>
+</html>

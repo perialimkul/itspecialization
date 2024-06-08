@@ -1,0 +1,347 @@
+body {
+ margin: 0;
+    font-family: Arial, sans-serif;
+   /*background-image: url(https://c02.purpledshub.com/uploads/sites/48/2019/02/HyadesY16JanD07-2dc9bb4.jpg?webp=1&w=1200);*/
+   background-repeat: no-repeat;
+  background-size: auto;
+  background-size: cover;
+}
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(30, 30, 197, 0.684);
+    line-height: 0.8;
+    width: 100%;
+    margin: 0 auto; /* Add this line */
+    max-width: 100vw;
+    background-color: rgba(43, 15, 255, 0.502);
+}
+    
+    
+    nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav a {
+        display: inline-block;
+        text-decoration: none;
+        color: #ffffff;
+        padding: 10px;
+        margin: 0 5px;
+        
+    }
+    
+    nav a:hover {
+        color: #010102;
+    }
+    
+
+
+    .booking__nav {
+        max-width: 600px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        background-color: var(--extra-light);
+        border-radius: 5px;
+      }
+      .booking__nav span {
+        flex: 1;
+        padding: 1rem 2rem;
+        font-weight: 500;
+        color: var(--text-light);
+        text-align: center;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      .booking__nav span:nth-child(2) {
+        color: var(--white);
+        background-color: var(--primary-color);
+      }
+      .booking__container form {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) auto;
+  gap: 1rem;
+}
+
+.booking__container .input__content {
+  width: 100%;
+}
+
+.booking__container .form__group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.booking__container .form__group span {
+  padding: 10px;
+  font-size: 1.5rem;
+  color: var(--text-dark);
+  background-color: var(--extra-light);
+  border-radius: 1rem;
+}
+
+.booking__container .input__group {
+  width: 100%;
+  position: relative;
+}
+.booking__container label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--text-dark);
+    pointer-events: none;
+    transition: 0.3s;
+  }
+  
+  .booking__container input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid var(--primary-color);
+    color: var(--text-dark);
+  }
+  
+  .booking__container input:focus ~ label {
+    font-size: 0.8rem;
+    top: 0;
+  }
+  
+  .booking__container .form__group p {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    color: var(--text-light);
+  }
+  
+  .booking__container .btn {
+    padding: 1rem;
+    font-size: 1.3rem;
+  }
+  .booking__container {
+    border-radius: 2rem;
+    border: 1px solid var(--extra-light);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+  }
+  .popular__content {
+    padding: 1rem;
+  }
+  
+  .popular__card__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+    
+  }
+  
+  .popular__card__header h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    
+  }
+  
+  .popular__content p {
+    color: var(--text-light);
+  }
+  .popular__grid {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+  .popular__card {
+    overflow: hidden;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+  }  
+
+  .client {
+    background-color: var(--extra-light);
+  }
+  
+  .client__grid {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+  .client__card {
+    padding: 2rem;
+    background-color: var(--white);
+    border-radius: 1rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .client__card img {
+    max-width: 80px;
+    margin: auto;
+    margin-bottom: 1rem;
+    border-radius: 100%;
+  }
+  
+  .client__card p {
+    text-align: center;
+    color: var(--text-dark);
+  }
+  
+  .reward__container {
+    padding: 2rem;
+    text-align: center;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reward__container p {
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: var(--text-light);
+  }
+  
+
+  .plan__container .subheader {
+    line-height: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: 600;
+    color: var(--text-dark);
+    letter-spacing: 5px;
+    color: rgba(43, 15, 255, 0.502);
+  }
+  
+  .plan__container .section__header {
+    text-align: center;
+    font-size: 3rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+    color: rgba(30, 7, 206, 0.629);
+  }
+  
+  .plan__container .description {
+    text-align: center;
+    color: var(--text-light);
+  }
+  
+  .plan__grid {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  
+  .plan__content .number {
+    display: inline-block;
+    padding: 5px 15px;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: var(--white);
+    background-color:rgb(218, 150, 247);
+    border-radius: 2rem;
+  }
+  
+  .plan__content .number:nth-child(4) {
+    background-color: #9044bb;
+  }
+  
+  .plan__content .number:nth-child(7) {
+    background-color: #501973;
+  }
+  
+  .plan__content h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin-bottom: 0.5rem;
+  }
+  
+  .plan__content p {
+    color: var(--text-light);
+    margin-bottom: 2rem;
+  }
+  
+  .plan__image {
+    position: relative;
+  }
+  
+  .plan__image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 10rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .plan__image img:nth-child(1) {
+    max-width: 250px;
+    transform: translate(calc(-50% - 9rem), calc(-50% + 5rem));
+    z-index: 3;
+  }
+  
+  .plan__image img:nth-child(2) {
+    max-width: 260px;
+    transform: translate(-50%, calc(-50% - 5rem));
+    z-index: 2;
+  }
+  
+  .plan__image img:nth-child(3) {
+    max-width: 230px;
+    transform: translate(calc(-50% + 9rem), calc(-50% + 5rem));
+  }
+  .sing_up{
+    width:360px;
+    height: 620px;
+    margin: auto;
+    border-radius: 3px;
+
+  }
+  .twotwo{
+    width: 300px;
+  }
+  .twotwo label{
+    display: flex;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .twotwo input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+  }
+  input[type="button"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgba(43, 15, 255, 0.502);
+    color: white;
+    font-size: 18px;
+  }
+  .onep{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+  }
+
